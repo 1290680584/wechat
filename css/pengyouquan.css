@@ -1,0 +1,161 @@
+#bar{
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+#my_bar{
+  height: 350px;
+  width: 100%;
+  background-image: url("../images/pengyouquan/er.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#my_center{
+  height: 100px;
+  width: 90%;
+}
+#my_right{
+  flex: 1;
+  margin-bottom: 50px;
+  height: 100px;
+}
+#my_photo{
+  width: 80px;
+  height: 80px;
+  left: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.chart_number{
+  width: 200px;
+  height: 26px;
+  flex: 1;
+  color: #756d6c;
+  font-size: 100%;
+
+}
+.name{
+  position: relative;
+  height: 180px;
+  width: 180px;
+  color: white;
+  font-size: 30px;
+  margin-left: 85%;
+  margin-top: 56px;
+}
+.two_dimension{
+  height: 180px;
+  width: 180px;
+  background-image: url("../images/mypage/QQ.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-right: 20px;
+}
+#friends_bar{
+  height: 200px;
+  width: 100%;
+}
+#friends_bar_left{
+  height: 80px;
+  width: 80px;
+  margin-bottom: 120px;
+  margin-left: 10px;
+}
+#friends_bar_center{
+  height: 200px;
+  width: 100%;
+}
+#friends_content{
+  height:95%;
+  margin-left: 10px;
+}
+.friends_name{
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  color: #425192;
+}
+.friends_msg{
+  font-size: 15px;
+  font-family: 楷体;
+  font-weight: bold;
+
+}
+#friends_bar_bottom{
+  height: 50px;
+}
+.time{
+  margin-top: 20px;
+  color: #8f8e8d;
+}
+#friends_click{
+  height: 15px;
+  width: 25px;
+  border-radius: 20%;
+  background-color: rgba(181, 169, 191, 0.52);
+  margin-top: 20px;
+  margin-left: 80%;
+  position: absolute;
+}
+.friends_click_content{
+  top: -15px;
+  margin-left: 6px;
+  font-size: 25px;
+  position: relative;
+}
+/*头像*/
+#friends_photo{
+  height: 46px;
+  width: 46px;
+  margin-top: 8px;
+  margin-left: 20px;
+  background-repeat: no-repeat;
+}
+
+#friends_submenu{
+  height: 40px;
+  width: 150px;
+  background-color: #212121;
+  color: white;
+  margin-top: 10px;
+  z-index: 999;
+  position: relative;
+  left: 170%;
+}
+#zan_photo{
+  flex: 1;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+}
+#zan_right{
+  flex: 4;
+  height: 40px;
+  width: 40px;
+}
+#zan_content{
+  font-size: 100%;
+  height: 34px;
+  width: 100px;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+#friend_lift{
+  flex: 3;
+}
+#friends_conter{
+  position: absolute;
+  flex: 3;
+}
+#friend_right{
+  position: relative;
+  width: 400px;
+}
+#title_left1{
+  height: 40px;
+  background-color: white;
+
+}
+

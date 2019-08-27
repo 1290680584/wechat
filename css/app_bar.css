@@ -1,0 +1,89 @@
+#app_bar{
+  display: flex;
+  width: 100%;
+  height: 28px;
+  background-color: #e0dfe3;
+  color: black;
+  font-size: 95%;
+  font-weight: 100;
+  position: absolute;
+}
+#app_bar_right{
+  flex:2;
+  height: 30px;
+}
+#app_bar_right div{
+  margin: 2px;
+}
+#singnal{
+  width: 30px;
+  height: 18px;
+}
+#singnal div:nth-child(1){
+  height: 4px;
+}
+#singnal div:nth-child(2){
+  height: 6px;
+}
+#singnal div:nth-child(3){
+  height: 8px;
+}
+#singnal div:nth-child(4){
+  height: 10px;
+}
+#singnal div:nth-child(5){
+  height: 12px;
+}
+.has-singnal{
+  width: 4px;
+  background-color: black;
+}
+.no-singnal{
+  width: 3px;
+  border: 1px solid black;
+}
+.has-singnal,.no-singnal,.batteray{
+  border-radius: 1px;
+}
+#operator{
+  width: 70px;
+  height: 18px;
+}
+#xg{
+  width: 10px;
+  height: 18px;
+  font-size: 5px;
+}
+/*右侧13:57*/
+#time{
+  height: 18px;
+  margin-right: 10px;
+}
+/*右侧电池*/
+#app_bar_right1{
+  height: 18px;
+  margin-right: 5px;
+}
+#batteray{
+  height: 12px;
+  width: 24px;
+  border: 1px solid black;
+  margin-bottom: 3px;
+}
+#batteray_body{
+  height: 9px;
+  width: 0px;
+  background-color: #8f8e8d;
+  margin-bottom: 2px;
+}
+#batteray_head{
+  background-color: black;
+  height: 6px;
+  width: 2px;
+  border-radius: 0px 1px 1px 0px;
+  margin:auto;
+}
+#batteray_quantity{
+  margin-right: 3px;
+}
+

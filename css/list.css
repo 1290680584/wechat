@@ -1,0 +1,58 @@
+/*头像*/
+#lift_photo{
+  height: 50px;
+  width: 50px;
+  margin-top: 4px;
+  margin-left: 20px;
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+/*语言栏的其他条目*/
+#lift_left{
+  flex: 1;
+  height: 48px;
+}
+#lift_left div{
+  margin: 0.1px;
+}
+#lift_center{
+  flex: 13;
+  height: 48px;
+}
+#lift_center div{
+  margin: 0.1px;
+}
+#lift_right{
+  margin-right: 20px;
+  height: 48px;
+  width: 60px;
+}
+#lift_right div{
+  margin: 0.1px;
+}
+/*语言栏的最大层*/
+#lift_bar{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  margin-top: 2px;
+  position: relative;
+}
+/*语言栏中间内容*/
+#lift_content{
+  font-size: 100%;
+  text-align: left;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+/*聊天内容*/
+.new_friend{
+  height: 20px;
+  width: 100%;
+  font-size: 15px;
+}
+
+

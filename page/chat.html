@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微信设计</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/util.css">
+  <link rel="stylesheet" href="../css/app_bar.css">
+  <link rel="stylesheet" href="../css/title.css">
+  <link rel="stylesheet" href="../css/chat.css">
+  <link rel="stylesheet" href="../css/dynamic.css">
+  <link rel="stylesheet" href="../css/menus.css">
+
+</head>
+<body>
+  <div id="container">
+    <!--app_bar层-->
+    <div id="app_bar" class="flex-row-nowarp align-col-center">
+    <div id="app_bar_right" class="flex-row-nowarp align-col-center align-row-right">
+<!--<div id="operator" class="flex-row-nowarp align-col-center align-row-center">中国联通</div>-->
+      <div id="xg" class="flex-row-nowarp align-row-center align-col-center">4G</div>
+      <div id="singnal" class="flex-row-nowarp align-col-end">
+        <div class="has-singnal"></div>
+        <div class="has-singnal"></div>
+        <div class="has-singnal"></div>
+        <div class="has-singnal"></div>
+        <div class="no-singnal"></div>
+     </div>
+    </div>
+    <div id="app_bar_right1" class="flex-row-nowarp align-col-center align-row-right ">
+<!--      <div id="batteray_quantity">75%</div>-->
+      <div id="batteray" class="flex-row-nowarp align-col-center ">
+        <div id="batteray_body"></div>
+      </div>
+      <div id="batteray_head"></div>
+      <div id="time" class="flex-row-nowarp align-col-center align-row-center ">下午1:57</div>
+    </div>
+
+  </div>
+    <!-- title层-->
+    <div id="title">
+      <div id="title_left" class="flex-row-nowarp position-rele">微信（125）</div>
+      <!--<div id="title_center"></div>-->
+      <div id="title_right" class="align-row-right flex-row-nowarp postion-rela">
+        <div id="see"></div>
+        <div id="add"></div>
+        <div id="title_submenu" class="position-rela">
+          <!--菜单层中的群聊条目-->
+          <div id="substance" class="flex-row-nowarp align-row-center">
+            <!--左边的图片部分-->
+            <div id="menus_left">
+              <div id="menus_photo" style="background-image: url(../images/title/group_chat.svg)"></div>
+            </div>
+            <!--右边的文字部分-->
+            <div id="menus_right">
+              <div id="menus_content" class="flex-row-nowarp">发起群聊</div>
+            </div>
+          </div>
+          <!--菜单中添加朋友条目-->
+          <div id="substance" class="flex-row-nowarp align-row-center">
+            <!--左边图片-->
+            <div id="menus_left">
+              <div id="menus_photo" style="background-image: url(../images/title/add_friends.svg)" ></div>
+            </div>
+            <!--右边文字-->
+            <div id="menus_right">
+              <div id="menus_content" class="flex-row-nowarp ">添加朋友</div>
+            </div>
+          </div>
+          <!--菜单中的扫一扫-->
+          <div id="substance" class="flex-row-nowarp align-row-center">
+            <!--左边的图片-->
+            <div id="menus_left">
+              <div id="menus_photo" style="background-image: url(../images/title/saoyisao.svg)"></div>
+            </div>
+            <!--右边的文字-->
+            <div id="menus_right">
+              <div id="menus_content" class="flex-row-nowarp">扫一扫</div>
+            </div>
+          </div>
+          <!--菜单中的收付款-->
+          <div id="substance" class="flex-row-nowarp align-row-center">
+            <!--左边的图片-->
+            <div id="menus_left">
+              <div id="menus_photo" style="background-image: url(../images/title/shoufukuan.svg)"></div>
+            </div>
+            <!--右边的文字-->
+            <div id="menus_right">
+              <div id="menus_content" class="flex-row-nowarp">收付款</div>
+            </div>
+          </div>
+          <!--菜单中的帮助和反馈-->
+          <div id="substance" class="flex-row-nowarp align-row-center">
+            <!--左边的图片-->
+            <div id="menus_left">
+              <div id="menus_photo" style="background-image: url(../images/title/help.svg)"></div>
+            </div>
+            <!--右边的文字-->
+            <div id="menus_right">
+              <div id="menus_content" class="flex-row-nowarp">帮助和反馈</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--dynamic层-->
+    <div id="dynamic">
+      <!--搜索条目-->
+      <div id="search_area" class="flex-row-nowarp align-col-center align-row-center">
+        <div id="search" class="flex-row-nowarp align-row-center align-col-center">
+          <div id="search_center" class="flex-row-nowarp align-col-center align-row-center">
+            <div id="search_img" class="flex-row-nowarp"></div>
+            <div class="flex-row-nowarp align-row-center align-col-center">搜索</div>
+          </div>
+        </div>
+      </div>
+      <!--语言框-->
+      <div class="container">
+        <!--第一条语言栏-->
+        <div id="language_bar" class="flex-row-nowarp align-col-center align-row-center">
+          <!--语言栏左侧-->
+          <div id="language_left">
+            <div id="language_photo"class="position-rele"
+                 style="background-image: url(../images/dynamic/photo.svg)">
+              <div class="msg_alert">
+                <div id="number" class="align-row-center align-col-center">3</div>
+              </div>
+            </div>
+          </div>
+          <!--语言栏中侧-->
+          <div id="language_center" class="flex-col-nowarp  align-row-center">
+            <div id="language_content" class="flex-col-nowarp ">
+              <div class="nickname">订阅号</div>
+              <div class="chart_msg">财经大学</div>
+            </div>
+          </div>
+          <!--语言栏右侧-->
+          <div id="language_right" class="flex-col-nowarp">
+            <div class="language_time">早上10:20</div>
+            <div class="silent"></div>
+          </div>
+        </div>
+        <!--第二条语言栏-->
+        <div id="language_bar" class="flex-row-nowarp align-col-center align-row-center">
+          <!--语言栏左侧-->
+          <div id="language_left">
+            <div id="language_photo"class="position-rele"
+                 style="background-image: url(../images/dynamic/QQ.jpg)">
+              <div class="msg_alert">
+                <div id="number" class="align-row-center align-col-center">1</div>
+              </div>
+            </div>
+          </div>
+          <!--语言栏中侧-->
+          <div id="language_center" class="flex-col-nowarp  align-row-center">
+            <div id="language_content" class="flex-col-nowarp ">
+              <div class="nickname">章三</div>
+              <div class="chart_msg">最近你好吗？</div>
+            </div>
+          </div>
+          <!--语言栏右侧-->
+          <div id="language_right" class="flex-col-nowarp">
+            <div class="language_time">下午12:20</div>
+          </div>
+        </div>
+        <!--第三条语言栏-->
+        <div id="language_bar" class="flex-row-nowarp align-col-center align-row-center">
+          <!--语言栏左侧-->
+          <div id="language_left">
+            <div id="language_photo"class="position-rele"
+                 style="background-image: url(../images/dynamic/photo2.svg)">
+              <div class="msg_alert">
+                <div id="number" class="align-row-center align-col-center">12</div>
+              </div>
+            </div>
+          </div>
+          <!--语言栏中侧-->
+          <div id="language_center" class="flex-col-nowarp  align-row-center">
+            <div id="language_content" class="flex-col-nowarp ">
+              <div class="nickname">公众号</div>
+              <div class="chart_msg">消息推送</div>
+            </div>
+          </div>
+          <!--语言栏右侧-->
+          <div id="language_right" class="flex-col-nowarp">
+            <div class="language_time">下午5:20</div>
+            <div class="silent"></div>
+          </div>
+        </div>
+        <!--第四条语言栏-->
+        <div id="language_bar" class="flex-row-nowarp align-col-center align-row-center">
+          <!--语言栏左侧-->
+          <div id="language_left">
+            <div id="language_photo"class="position-rele"
+                 style="background-image: url(../images/dynamic/photo3.svg)">
+              <!--<div class="msg_alert">
+                <div id="number" class="align-row-center align-col-center"></div>
+              </div>-->
+            </div>
+          </div>
+          <!--语言栏中侧-->
+          <div id="language_center" class="flex-col-nowarp  align-row-center">
+            <div id="language_content" class="flex-col-nowarp ">
+              <div class="nickname">宿舍群</div>
+              <div class="chart_msg">牛：165413541</div>
+            </div>
+          </div>
+          <!--语言栏右侧-->
+          <div id="language_right" class="flex-col-nowarp">
+            <div class="language_time">早上11:20</div>
+            <!--<div class="silent"></div>-->
+          </div>
+        </div>
+        <!--第五条语言栏-->
+        <div id="language_bar" class="flex-row-nowarp align-col-center align-row-center">
+          <!--语言栏左侧-->
+          <div id="language_left">
+            <div id="language_photo"class="position-rele"
+                 style="background-image: url(../images/dynamic/photo4.svg)">
+              <div class="msg_alert">
+                <div id="number" class="align-row-center align-col-center">6</div>
+              </div>
+            </div>
+          </div>
+          <!--语言栏中侧-->
+          <div id="language_center" class="flex-col-nowarp  align-row-center">
+            <div id="language_content" class="flex-col-nowarp ">
+              <div class="nickname">中国联通</div>
+              <div class="chart_msg">活动推出！</div>
+            </div>
+          </div>
+          <!--语言栏右侧-->
+          <div id="language_right" class="flex-col-nowarp">
+            <div class="language_time">早上10:20</div>
+            <div class="silent"></div>
+          </div>
+        </div>
+        <!--第六条语言栏-->
+        <div id="language_bar" class="flex-row-nowarp align-col-center align-row-center">
+          <!--语言栏左侧-->
+          <div id="language_left">
+            <div id="language_photo"class="position-rele"
+                 style="background-image: url(../images/dynamic/photo5.svg)">
+              <!--<div class="msg_alert">
+                <div id="number" class="align-row-center align-col-center">3</div>
+              </div>-->
+            </div>
+          </div>
+          <!--语言栏中侧-->
+          <div id="language_center" class="flex-col-nowarp  align-row-center">
+            <div id="language_content" class="flex-col-nowarp ">
+              <div class="nickname">妈</div>
+              <div class="chart_msg">在吗</div>
+            </div>
+          </div>
+          <!--语言栏右侧-->
+          <div id="language_right" class="flex-col-nowarp">
+            <div class="language_time">早上10:20</div>
+            <!--<div class="silent"></div>-->
+          </div>
+        </div>
+        <!--第七条语言栏-->
+        <div id="language_bar" class="flex-row-nowarp align-col-center align-row-center">
+          <!--语言栏左侧-->
+          <div id="language_left">
+            <div id="language_photo"class="position-rele"
+                 style="background-image: url(../images/dynamic/photo6.svg)">
+              <div class="msg_alert">
+                <div id="number" class="align-row-center align-col-center">3</div>
+              </div>
+            </div>
+          </div>
+          <!--语言栏中侧-->
+          <div id="language_center" class="flex-col-nowarp  align-row-center">
+            <div id="language_content" class="flex-col-nowarp ">
+              <div class="nickname">爸</div>
+              <div class="chart_msg">吃饭了吗？</div>
+            </div>
+          </div>
+          <!--语言栏右侧-->
+          <div id="language_right" class="flex-col-nowarp">
+            <div class="language_time">早上11：50</div>
+            <!--<div class="silent"></div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--menus层-->
+    <div id="menus" class="flex-row-nowarp align-col-center">
+      <!--微信-->
+      <div id="m_chat" class="flex-col-nowarp">
+        <div id="chat1" class="position-rele flex-col-nowarp">
+          <div class="has_infom_alert" style="margin-top: 0px;margin-right: 16px">
+            <div class="alert_num">...</div>
+          </div>
+          <div id="wechat_text_chat">微信</div>
+        </div>
+      </div>
+      <!--通讯录-->
+      <div id="m_list" class="flex-col-nowarp">
+        <div id="list" class="position-rele flex-col-nowarp">
+          <div class="has_list">
+            <!--<div class="alert_num">...</div>-->
+          </div>
+          <div id="list_text">通讯录</div>
+        </div>
+      </div>
+      <!--发现-->
+      <div id="m_find" class="flex-col-nowarp">
+        <div id="find" class="position-rele flex-col-nowarp">
+          <div class="has_find" ></div>
+          <div id="find_text">发现</div>
+        </div>
+      </div>
+      <!--我-->
+      <div id="m_me" class="flex-col-nowarp">
+        <div id="me" class="position-rele flex-col-nowarp">
+          <div class="has_me"></div>
+          <div id="me_text">我</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<!--js的调用-->
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type="text/javascript" src="../js/app_bar.js"></script>
+<script type="text/javascript" src="../js/title.js"></script>
+<script type="text/javascript" src="../js/jump.js"></script>

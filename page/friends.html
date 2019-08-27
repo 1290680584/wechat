@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>朋友圈</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/util.css">
+  <link rel="stylesheet" href="../css/app_bar.css">
+  <link rel="stylesheet" href="../css/title.css">
+  <link rel="stylesheet" href="../css/chat.css">
+  <link rel="stylesheet" href="../css/menus.css">
+  <link rel="stylesheet" href="../css/find.css">
+  <link rel="stylesheet" href="../css/pengyouquan.css">
+
+
+</head>
+<body>
+<div id="container1">
+  <!--app_bar层-->
+  <div id="app_bar" class="flex-row-nowarp align-col-center" style="background-color:white ">
+    <div id="app_bar_right" class="flex-row-nowarp align-col-center align-row-right">
+      <div id="xg" class="flex-row-nowarp align-row-center align-col-center">4G</div>
+      <div id="singnal" class="flex-row-nowarp align-col-end">
+        <div class="has-singnal"></div>
+        <div class="has-singnal"></div>
+        <div class="has-singnal"></div>
+        <div class="has-singnal"></div>
+        <div class="no-singnal"></div>
+      </div>
+    </div>
+    <div id="app_bar_right1" class="flex-row-nowarp align-col-center align-row-right ">
+      <!--      <div id="batteray_quantity">75%</div>-->
+      <div id="batteray" class="flex-row-nowarp align-col-center ">
+        <div id="batteray_body"></div>
+      </div>
+      <div id="batteray_head"></div>
+      <div id="time" class="flex-row-nowarp align-col-center align-row-center ">下午1:57</div>
+    </div>
+
+  </div>
+  <!-- title层-->
+  <div id="title" style="background-color: white">
+    <div id="title_left1" class="flex-row-nowarp position-rele" style="font-weight: bolder;font-size: 15px;background-color: white;margin-left: 20px">< 朋友圈</div>
+    <div id="title_right"class="flex-row-nowarp align-row-right"style="background-color: white">
+      <div id="title_camera" style="margin-right: 70px"></div>
+    </div>
+  </div>
+  <!--dynamic层-->
+  <div id="dynamic" style="background-color: white">
+  <!--语言框-->
+  <div class="container">
+    <!--个人信息-->
+    <div id="bar">
+      <div id="my_bar" class="flex-row-nowarp align-col-center align-row-center" >
+        <!--语言栏左侧-->
+        <!--<div id="my_left">
+          <div id="my_photo"class="position-rele"
+               style="background-image: url(../images/mypage/QQ.jpg)">
+                  &lt;!&ndash; <div class="msg_alert">
+                      <div id="number" class="align-row-center align-col-center">3</div>
+                    </div>&ndash;&gt;
+          </div>
+        </div>-->
+        <!--语言栏中侧-->
+        <div id="my_center" class="flex-col-nowarp  ">
+            <div class="name">相濡以沫</div>
+        </div>
+        <!--语言栏右侧-->
+        <div id="my_right" class="flex-row-nowarp">
+          <div class="two_dimension"></div>
+        </div>
+      </div>
+    </div>
+    <!--朋友圈动态-->
+    <div class="flex-col-nowarp">
+      <div id="friends_bar" class="flex-row-nowarp align-col-center align-row-center">
+        <!--语言栏左侧-->
+        <div id="friends_bar_left">
+          <div id="friends_photo"class="position-rele"
+               style="background-image: url(../images/dynamic/photo.svg)">
+          </div>
+        </div>
+        <!--语言栏中侧-->
+        <div id="friends_bar_center" class="flex-col-nowarp  align-row-center">
+          <div id="friends_content" class="flex-col-nowarp ">
+            <div class="friends_name">lagywe</div>
+            <div class="friends_msg">没事就想发个动态...</div>
+            <div id="friends_bar_bottom" class="flex-row-nowarp">
+              <div id="friend_lift">
+                <div class="time">1小时前</div>
+              </div>
+              <div id="friend_conter" >
+                <div id="friends_submenu" class="position-rela flex-row-nowarp">
+                  <!--菜单层中的赞-->
+                  <div id="substance" class="flex-row-nowarp align-row-center align-col-center">
+                    <!--左边的图片部分-->
+                    <div id="zan_left">
+                      <div id="zan_photo" style="background-image: url(../images/zan.svg);background-size: 50%;background-position: center"></div>
+                    </div>
+                    <!--右边的文字部分-->
+                    <div id="zan_right">
+                      <div id="zan_content" class="flex-row-nowarp">赞</div>
+                    </div>
+                  </div>
+                  <!--菜单中评论-->
+                  <div id="substance" class="flex-row-nowarp align-row-center align-col-center">
+                    <!--左边图片-->
+                    <div id="zan_left">
+                      <div id="zan_photo" style="background-image: url(../images/speak.svg);background-size: 50%;background-position: center" ></div>
+                    </div>
+                    <!--右边文字-->
+                    <div id="zan_right">
+                      <div id="zan_content" class="flex-row-nowarp ">评论</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="friend_right" class="position-rele">
+              <div id="friends_click">
+                <div class="friends_click_content">..</div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+
+  </div>
+</div>
+</div>
+</body>
+</html>
+
+<!--js的调用-->
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type="text/javascript" src="../js/app_bar.js"></script>
+<script type="text/javascript" src="../js/title.js"></script>
+<script type="text/javascript" src="../js/jump.js"></script>

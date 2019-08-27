@@ -1,0 +1,67 @@
+#my_bar{
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 20px
+}
+#my_left{
+  flex: 1;
+  height: 80px;
+}
+#my_left div{
+  margin: 0.1px;
+}
+#my_center{
+  flex: 6;
+  height: 80px;
+}
+#my_center div:nth-child(1){
+
+}
+#my_center div:nth-child(2){
+  margin-top: 40px;
+}
+#my_right{
+  margin-right: 20px;
+  height: 48px;
+  width: 130px;
+}
+#my_right div:nth-child(1){
+  background-position: center ;
+}
+
+#my_photo{
+  width: 80px;
+  height: 80px;
+  left: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.chart_number{
+  width: 200px;
+  height: 26px;
+  flex: 1;
+  color: #756d6c;
+  font-size: 100%;
+
+}
+.name{
+  height: 20px;
+  width: 100%;
+  font-size: 25px;
+}
+.skip{
+  height: 50px;
+  width: 50%;
+  color: #c2c9ca;
+  font-size: 35px;
+}
+.two_dimension{
+  height: 50px;
+  width: 50%;
+  flex-wrap: nowrap;
+  background-image: url("../images/mypage/two-dimension.svg");
+  background-repeat: no-repeat;
+}
